@@ -1,0 +1,356 @@
+{
+ "targets": [
+  {
+   "adapter": "beisen",
+   "slug": "bosc",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://bosc.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "上海银行",
+   "verdict": "不接",
+   "from": "sources/上海银行.md",
+   "judge_note": "cat4 出现近 60 天发布的实习条目。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "dxzq",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://dxzq.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "东兴证券",
+   "verdict": "保留观察",
+   "from": "sources/东兴证券.md",
+   "judge_note": "任一分类在招总数 > 0 即重新评估。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "csc108",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://csc108.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "中信建投",
+   "verdict": "不接",
+   "from": "sources/中信建投.md",
+   "judge_note": "任一分类出现实习性质新增条目，或出现实习分类。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "chinare",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://chinare.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "中国再保",
+   "verdict": "不接",
+   "from": "sources/中国再保.md",
+   "judge_note": "任一分类出现实习性质新增条目，或门户恢复更新后按类别普查复核。"
+  },
+  {
+   "adapter": "beisen_classic",
+   "intern_url": "https://jysld.zhiye.com/Intern",
+   "deep_link": "https://jysld.zhiye.com/Intern",
+   "time_field": "页面发布时间",
+   "company": "交银施罗德",
+   "verdict": "不接",
+   "from": "sources/交银施罗德.md",
+   "judge_note": "`/Intern` 或 `/alljob` 页面出现带日期的岗位条目。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "ebscn",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://ebscn.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "光大证券",
+   "verdict": "不接",
+   "from": "sources/光大证券.md",
+   "judge_note": "出现实习分类或实习性质新增条目。"
+  },
+  {
+   "adapter": "beisen_classic",
+   "intern_url": "https://chinaamc.zhiye.com/Intern",
+   "deep_link": "https://chinaamc.zhiye.com/Intern",
+   "time_field": "页面发布时间",
+   "company": "华夏基金",
+   "verdict": "不接",
+   "from": "sources/华夏基金.md",
+   "judge_note": "`chinaamc.zhiye.com` 出现可用岗位列表接口，或官网出现自建实习岗位频道。"
+  },
+  {
+   "adapter": "beisen_classic",
+   "intern_url": "https://huaan.zhiye.com/Intern",
+   "deep_link": "https://huaan.zhiye.com/Intern",
+   "time_field": "页面发布时间",
+   "company": "华安基金",
+   "verdict": "不接",
+   "from": "sources/华安基金.md",
+   "judge_note": "`/intern` 出现带日期岗位条目。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "htam",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://htam.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "华泰资产",
+   "verdict": "不接",
+   "from": "sources/华泰资产.md",
+   "judge_note": ""
+  },
+  {
+   "adapter": "beisen",
+   "slug": "gyzq",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://gyzq.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "国元证券",
+   "verdict": "不接",
+   "from": "sources/国元证券.md",
+   "judge_note": "出现实习分类，或全职招聘分类内出现实习性质条目。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "gtfund",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://gtfund.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "国泰基金",
+   "verdict": "不接",
+   "from": "sources/国泰基金.md",
+   "judge_note": "分类普查中出现\"实习\"名称分类，或任一分类连续两个月出现实习性质新增。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "djbx",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://djbx.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "大家资产",
+   "verdict": "不接",
+   "from": "sources/大家资产.md",
+   "judge_note": ""
+  },
+  {
+   "adapter": "beisen_cms",
+   "slug": "dachengjj",
+   "deep_link": "https://dachengjj.zhiye.com/campus",
+   "time_field": "发布时间（SSR 表格列）",
+   "company": "大成基金",
+   "verdict": "保留观察",
+   "from": "sources/大成基金.md",
+   "judge_note": "门户 2026-10-17 复测已改版为北森 CMS 皮肤（/campus 服务端渲染表格，原 /jobs 与列表接口均 404）；表格出现条目即重新评估，出现实习岗直接收录。"
+  },
+  {
+   "adapter": "hotjob",
+   "su": "SU60419b4dbef57c66a923b081",
+   "recruit_type": 12,
+   "deep_link": "https://wecruit.hotjob.cn/SU60419b4dbef57c66a923b081/pb/interns.html",
+   "time_field": "publishFirstDate",
+   "company": "工银瑞信",
+   "verdict": "不接",
+   "from": "sources/工银瑞信.md",
+   "judge_note": "getSLD 对 `icbccs.hotjob.cn` 返回有效 linkData，或出现新的官网招聘域名。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "ccbfund",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://ccbfund.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "建信基金",
+   "verdict": "保留观察",
+   "from": "sources/建信基金.md",
+   "judge_note": "任一分类在招总数 > 0 即重新评估；出现实习分类直接收录。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "foundersc",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://foundersc.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "方正证券",
+   "verdict": "不接",
+   "from": "sources/方正证券.md",
+   "judge_note": "出现实习分类或实习性质新增条目。"
+  },
+  {
+   "adapter": "hotjob",
+   "su": "SU628a429c0dcad41af38720c0",
+   "recruit_type": 12,
+   "deep_link": "https://wecruit.hotjob.cn/SU628a429c0dcad41af38720c0/pb/interns.html",
+   "time_field": "publishFirstDate",
+   "company": "永赢基金",
+   "verdict": "不接",
+   "from": "sources/永赢基金.md",
+   "judge_note": "recruitType=12 出现 `publishFirstDate` 在近 60 天内的条目（该岗刷新或新岗发布）。"
+  },
+  {
+   "adapter": "beisen_classic",
+   "intern_url": "https://zszq.zhiye.com/Intern",
+   "deep_link": "https://zszq.zhiye.com/Intern",
+   "time_field": "页面发布时间",
+   "company": "浙商证券",
+   "verdict": "不接",
+   "from": "sources/浙商证券.md",
+   "judge_note": "经典版门户或内推站出现实习岗位条目。"
+  },
+  {
+   "adapter": "beisen_classic",
+   "intern_url": "https://hftfund.zhiye.com/Intern",
+   "deep_link": "https://hftfund.zhiye.com/Intern",
+   "time_field": "页面发布时间",
+   "company": "海富通",
+   "verdict": "不接",
+   "from": "sources/海富通.md",
+   "judge_note": "`/Intern` 出现带日期岗位条目。"
+  },
+  {
+   "adapter": "hotjob",
+   "su": "SU625785ebbef57c10b08dc5cc",
+   "recruit_type": 12,
+   "deep_link": "https://wecruit.hotjob.cn/SU625785ebbef57c10b08dc5cc/pb/interns.html",
+   "time_field": "publishFirstDate",
+   "company": "融通基金",
+   "verdict": "不接",
+   "from": "sources/融通基金.md",
+   "judge_note": ""
+  },
+  {
+   "adapter": "beisen",
+   "slug": "chinastock",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://chinastock.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "银河证券",
+   "verdict": "不接",
+   "from": "sources/银河证券.md",
+   "judge_note": "任一分类出现 `Kind=实习` 或标题含实习的新增条目。"
+  },
+  {
+   "adapter": "beisen",
+   "slug": "cjzq",
+   "categories": [
+    "3"
+   ],
+   "deep_link": "https://cjzq.zhiye.com/jobs",
+   "time_field": "PostDate",
+   "company": "长江证券",
+   "verdict": "不接",
+   "from": "sources/长江证券.md",
+   "judge_note": "CategoryId=3 出现近 60 天新增条目。"
+  }
+ ],
+ "manual": [
+  {
+   "company": "首创京都期货",
+   "verdict": "记录档",
+   "reason": "记录档：官网招聘信息页为服务端渲染静态页、无日期字段，无法支持增量判定（人工复测口径，下钻 S037：在招'量化研究实习生—若干'）；若站点改版出结构化接口再接"
+  },
+  {
+   "company": "华安证券",
+   "verdict": "记录档",
+   "reason": "自建 EIP4HA 页面型、岗位无时间字段无法增量判定；实习 1 条（投行·深圳）；复测=页面出现新实习岗且系统出结构化接口再评估；316 seq 026 判收"
+  },
+  {
+   "company": "中信保诚基金",
+   "verdict": "记录档",
+   "reason": "自建 SSR 页无列表接口；实习 4 条（09-07 批）；详情页 recruitDetails?position_id= 带发布时间，如需接入须逐条详情补采；"
+  },
+  {
+   "company": "博道基金",
+   "verdict": "记录档",
+   "reason": "静态 CMS 单页（岗位+日期全在 HTML，5 条日常实习 09-04）；单页无独立 URL，写入需专属解析器，收益比低暂记录；316 seq 143 判收录"
+  },
+  {
+   "company": "圆信永丰基金",
+   "verdict": "记录档",
+   "reason": "自建单页、无时间字段无法增量（实习 1 条：交易部实习生）；316 seq 156 判收录"
+  },
+  {
+   "company": "浙商基金",
+   "verdict": "记录档",
+   "reason": "静态栏目页 6 条实习（截止均 2026-12-31）、无发布时间；已排除北森/Moka/大易；316 seq 164 判收录"
+  },
+  {
+   "company": "开思基金",
+   "verdict": "记录档",
+   "reason": "石云 CMS 单页 4 条实习（08-11，60 天边界）；PE/VC 主体，矩阵无该列暂记录；316 seq 303 判收录"
+  },
+  {
+   "company": "兴业银行",
+   "verdict": "记录档",
+   "reason": "job.cib.com.cn 接口前置 /api/cfn/sysToken keySalt 签名握手——按红线 3 不做接口直连/签名伪造；TR 频道实习 21"
+  },
+  {
+   "company": "中央财经大学",
+   "verdict": "记录档",
+   "reason": "就业网域名未定位（career/job.cufe.edu.cn 均 DNS 不存在），主站就业频道入口待查；排查 2026-10-12 判暂缓"
+  },
+  {
+   "company": "国寿资产",
+   "verdict": "不接",
+   "reason": "走 chinalife 集团门户，判据为主体口径（总部/资管类主体出现才复核）；自动探针只能测集团 cat3 总量（159 条分公司岗），会误报"
+  }
+ ],
+ "shixiseng_watchlist": [
+  "中国银河",
+  "申万宏源证券",
+  "方正证券",
+  "长江证券",
+  "浙商证券",
+  "西部证券",
+  "中银证券",
+  "第一创业",
+  "国海证券",
+  "财达证券",
+  "国都证券",
+  "中航证券",
+  "华鑫证券",
+  "汇添富基金",
+  "景顺长城基金",
+  "华安基金",
+  "中欧基金",
+  "大成基金",
+  "鹏扬基金",
+  "申万菱信基金",
+  "德邦基金",
+  "太平基金",
+  "睿远基金",
+  "中信证券资管",
+  "财通资管",
+  "大家资产",
+  "工银安盛资管",
+  "华能信托",
+  "中国人寿",
+  "太保产险",
+  "大地保险",
+  "高瓴投资",
+  "松禾资本",
+  "洪泰基金",
+  "物产中大投资",
+  "中证鹏元"
+ ]
+}
